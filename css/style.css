@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+:root {
+    --main-bg-color:#2874f0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: var(--main-bg-color);
+    /* display: flex; */
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 59px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    /* font-family: 'Comfortaa', cursive; */
+    font-family: 'Rubik', sans-serif;
+    /* font-size: 18px ; */
+    /* font-weight: 650; */
+    padding: 0 16px;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+    
+}
+nav ul li a:hover{
+    /* color: rgb(220, 220, 238); */
+    font-weight:bold;
+    /* color: #aecaf8; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 111px;
+    height: 48px;
+    padding: 0 27px;   
+}
+.container{
+    min-height: calc(100vh - 59px - 8vh);
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 0 38px;
+    border-radius: 3px;
+}
+.search input{
+    height: 31px;
+    width: 31vw;
+    padding: 0 8px;
+    /* font-family: 'Comfortaa', cursive; */
+}
+.btn{
+    margin: 0 11px;
+    font-family: 'Comfortaa', cursive;
+    width: 60px;
+    height: 26px;
+    color: white;
+    background-color: var(--main-bg-color);
+    cursor: pointer;
+    border: 2px solid white;
+}
+.btn:hover{
+    
+    border-radius: 10px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 4px auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 1212px;
+    height: 381px;
+}
+.card{
+    /* background-color: var(--main-bg-color); */
+    max-width: 96vw;
+    margin: 32px auto;
+}
+.cardss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card h2{
+    font-family: 'Comfortaa', cursive;
+
+}
+.carditems{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10vw;
+    margin: 0 15px;
+}
+.lines{
+    /* text-align: center; */
+}
+.disc{
+    color: green;
+}
+footer{
+    height: 8vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Comfortaa', cursive;
+} 
